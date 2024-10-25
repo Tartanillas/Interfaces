@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(207, 58, 58), rgb(47, 161, 152));
+    line-height: 1.5;
+    color: white;
+}
+
+header {
+    background-color: yellow;
+    color: rgb(72, 255, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 0, 242);
+    margin-right: 10px;
+}
+nav ul li.destacado {
+    font-weight: bold;
+}
+
+main {
+    width: 75%;
+    float: right;
+    box-shadow: 0 0 30px yellow;
+    margin: 1% auto;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 1%;
+    background-color: rgb(153, 43, 226);
+    color: tomato;
+    height: 458px;
+}
+
+.articulos {
+    float: left;
+    width: 75%;
+}
+
+.articulos article {
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    color: rgb(72, 255, 0);
+    width: 570px;
+}
+
+table {
+    width: 100%;
+    margin-top: 1%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px solid rgb(255, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: black;
+    color: white;
+}
+
+td {
+    background-color: white;
+    color: black;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: springgreen;
+    color: blue;
+    padding: 10px;
+    clear: both;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+#servicios {
+    color: blue;
+    font-size: larger;
+}
+
+a[target="_blank"] {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.introduccion p::first-line {
+    font-weight: bold;
+}

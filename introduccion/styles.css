@@ -1,0 +1,31 @@
+.cabecera {
+    background-color: purple;
+    padding: 0px 5px 10px 60px;
+    color: yellowgreen;
+    width: 250px;
+}
+
+#lista {
+    background-color: yellow;
+    padding: 1%;
+    color: red;
+    width: 33%;
+    margin: 2% auto;
+    text-align: center;
+}
+#lista ul {
+    padding: 0;
+}
+#lista ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+#lista:hover{
+    background-color: red;
+    color: yellow;
+    height: 200px;
+    width: 50%;
+    transition-duration: 0.8s;
+    border-radius: 30px;
+}
