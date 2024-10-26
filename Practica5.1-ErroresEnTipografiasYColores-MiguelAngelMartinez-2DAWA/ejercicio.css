@@ -1,29 +1,30 @@
 :root {
-    --color-fondo-hyf: #55AD9B;
-    --color-fondo-myb: #95D2B3;
-    --color-borde-article: #55AD9B;
+    --color-fondo-hyf: #A2C2E8;
+    --color-fondo-myb: #b2e0e0;
+    --color-borde-article: #A2C2E8;
     --color-texto: #444444;
-    --color-enlaces: #D8EFD3;
-    --color-h2: #55AD9B;
-    --color-h3: #46cea0;
-    --color-hover: #444444;
+    --color-enlaces: #444444;
+    --color-h2: #6A8DBA;
+    --color-h3: #78b0c5;
+    --color-hover: #b2e0e0;
 }
 * {
     margin: 0;
     padding: 0;
-    line-height: 1.5;
+    line-height: 1.6;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color-texto);
 }
 header {
-    height: 150px;
+    padding-top: 20px;
+    height: 130px;
     background-color: var(--color-fondo-hyf);
 }
 body {
     background-color: var(--color-fondo-myb);
 }
 nav {
-    margin: 30px;
+    margin: 20px;
     text-align: center;
 }
 li {
@@ -66,12 +67,17 @@ p {
     text-align: justify;
 }
 p.codigo {
-    border: dotted 2px var(--color-borde-article);
+    border: dashed 2px var(--color-borde-article);
+    width: 220px;
+    color: var(--color-h2);
     font-size: 16px;
     font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
     padding: 5px;
 }
 article {
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.3);
     margin: 20px;
     padding: 15px;
     border: solid 2px var(--color-borde-article);
